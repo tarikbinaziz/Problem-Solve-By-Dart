@@ -22,4 +22,7 @@ void main(List<String> args) {
     }
   }
   print(c.toList());
+
+  //  // One liner using set intersections
+  print(Set.from(a).intersection(Set.from(b)).toList());
 }
